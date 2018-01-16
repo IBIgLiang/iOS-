@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC60054E200E5696000F0354 /* BGCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EC600544200E5696000F0354 /* BGCashContext.m */; };
+		EC60054F200E5696000F0354 /* BGCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = EC600546200E5696000F0354 /* BGCashNormal.m */; };
+		EC600550200E5696000F0354 /* BGCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC600548200E5696000F0354 /* BGCashRebate.m */; };
+		EC600551200E5696000F0354 /* BGCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60054A200E5696000F0354 /* BGCashReturn.m */; };
+		EC600552200E5696000F0354 /* BGSupermarketSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60054D200E5696000F0354 /* BGSupermarketSalesViewController.m */; };
 		ECC9A1612005B47500257DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1602005B47500257DC4 /* AppDelegate.m */; };
 		ECC9A1642005B47500257DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1632005B47500257DC4 /* ViewController.m */; };
 		ECC9A1672005B47500257DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A1652005B47500257DC4 /* Main.storyboard */; };
@@ -24,11 +29,6 @@
 		ECC9A1A92007053F00257DC4 /* BGOperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1A82007053F00257DC4 /* BGOperationMul.m */; };
 		ECC9A1AC200705AB00257DC4 /* BGOperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1AB200705AB00257DC4 /* BGOperationDiv.m */; };
 		ECC9A1AE20070FAB00257DC4 /* 简单工程模式.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A1AD20070FAA00257DC4 /* 简单工程模式.png */; };
-		ECC9A1B32007831E00257DC4 /* BGCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B22007831E00257DC4 /* BGCashNormal.m */; };
-		ECC9A1B62007836A00257DC4 /* BGCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B52007836A00257DC4 /* BGCashRebate.m */; };
-		ECC9A1B9200784C000257DC4 /* BGCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B8200784C000257DC4 /* BGCashReturn.m */; };
-		ECC9A1BC20078B0800257DC4 /* BGCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1BB20078B0800257DC4 /* BGCashContext.m */; };
-		ECC9A1BF20078E5200257DC4 /* BGSupermarketSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC600543200E5696000F0354 /* BGCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCashContext.h; sourceTree = "<group>"; };
+		EC600544200E5696000F0354 /* BGCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCashContext.m; sourceTree = "<group>"; };
+		EC600545200E5696000F0354 /* BGCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCashNormal.h; sourceTree = "<group>"; };
+		EC600546200E5696000F0354 /* BGCashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCashNormal.m; sourceTree = "<group>"; };
+		EC600547200E5696000F0354 /* BGCashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCashRebate.h; sourceTree = "<group>"; };
+		EC600548200E5696000F0354 /* BGCashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCashRebate.m; sourceTree = "<group>"; };
+		EC600549200E5696000F0354 /* BGCashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCashReturn.h; sourceTree = "<group>"; };
+		EC60054A200E5696000F0354 /* BGCashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGCashReturn.m; sourceTree = "<group>"; };
+		EC60054B200E5696000F0354 /* BGCashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGCashSuper.h; sourceTree = "<group>"; };
+		EC60054C200E5696000F0354 /* BGSupermarketSalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGSupermarketSalesViewController.h; sourceTree = "<group>"; };
+		EC60054D200E5696000F0354 /* BGSupermarketSalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGSupermarketSalesViewController.m; sourceTree = "<group>"; };
 		ECC9A15C2005B47500257DC4 /* iOS_大话设计模式学习片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_大话设计模式学习片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC9A15F2005B47500257DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECC9A1602005B47500257DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,17 +94,6 @@
 		ECC9A1AA200705AB00257DC4 /* BGOperationDiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOperationDiv.h; sourceTree = "<group>"; };
 		ECC9A1AB200705AB00257DC4 /* BGOperationDiv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOperationDiv.m; sourceTree = "<group>"; };
 		ECC9A1AD20070FAA00257DC4 /* 简单工程模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工程模式.png"; sourceTree = "<group>"; };
-		ECC9A1B0200782D100257DC4 /* BGCashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashSuper.h; sourceTree = "<group>"; };
-		ECC9A1B12007831E00257DC4 /* BGCashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashNormal.h; sourceTree = "<group>"; };
-		ECC9A1B22007831E00257DC4 /* BGCashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashNormal.m; sourceTree = "<group>"; };
-		ECC9A1B42007836A00257DC4 /* BGCashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashRebate.h; sourceTree = "<group>"; };
-		ECC9A1B52007836A00257DC4 /* BGCashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashRebate.m; sourceTree = "<group>"; };
-		ECC9A1B7200784C000257DC4 /* BGCashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashReturn.h; sourceTree = "<group>"; };
-		ECC9A1B8200784C000257DC4 /* BGCashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashReturn.m; sourceTree = "<group>"; };
-		ECC9A1BA20078B0800257DC4 /* BGCashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashContext.h; sourceTree = "<group>"; };
-		ECC9A1BB20078B0800257DC4 /* BGCashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashContext.m; sourceTree = "<group>"; };
-		ECC9A1BD20078E5200257DC4 /* BGSupermarketSalesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSupermarketSalesViewController.h; sourceTree = "<group>"; };
-		ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSupermarketSalesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC600542200E5696000F0354 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EC600543200E5696000F0354 /* BGCashContext.h */,
+				EC600544200E5696000F0354 /* BGCashContext.m */,
+				EC600545200E5696000F0354 /* BGCashNormal.h */,
+				EC600546200E5696000F0354 /* BGCashNormal.m */,
+				EC600547200E5696000F0354 /* BGCashRebate.h */,
+				EC600548200E5696000F0354 /* BGCashRebate.m */,
+				EC600549200E5696000F0354 /* BGCashReturn.h */,
+				EC60054A200E5696000F0354 /* BGCashReturn.m */,
+				EC60054B200E5696000F0354 /* BGCashSuper.h */,
+				EC60054C200E5696000F0354 /* BGSupermarketSalesViewController.h */,
+				EC60054D200E5696000F0354 /* BGSupermarketSalesViewController.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
 		ECC9A1532005B47500257DC4 = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +162,7 @@
 		ECC9A15E2005B47500257DC4 /* iOS_大话设计模式学习片 */ = {
 			isa = PBXGroup;
 			children = (
-				ECC9A1AF200711C400257DC4 /* 策略模式 */,
+				EC600542200E5696000F0354 /* 策略模式 */,
 				ECC9A19D20063E1300257DC4 /* 基础控件 */,
 				ECC9A1912005B4AD00257DC4 /* 简单工厂模式 */,
 				ECC9A15F2005B47500257DC4 /* AppDelegate.h */,
@@ -208,24 +226,6 @@
 				ECC9A1A220063E6900257DC4 /* BGRootViewController+AlertMessage.m */,
 			);
 			path = "基础控件";
-			sourceTree = "<group>";
-		};
-		ECC9A1AF200711C400257DC4 /* 策略模式 */ = {
-			isa = PBXGroup;
-			children = (
-				ECC9A1B0200782D100257DC4 /* BGCashSuper.h */,
-				ECC9A1B12007831E00257DC4 /* BGCashNormal.h */,
-				ECC9A1B22007831E00257DC4 /* BGCashNormal.m */,
-				ECC9A1B42007836A00257DC4 /* BGCashRebate.h */,
-				ECC9A1B52007836A00257DC4 /* BGCashRebate.m */,
-				ECC9A1B7200784C000257DC4 /* BGCashReturn.h */,
-				ECC9A1B8200784C000257DC4 /* BGCashReturn.m */,
-				ECC9A1BA20078B0800257DC4 /* BGCashContext.h */,
-				ECC9A1BB20078B0800257DC4 /* BGCashContext.m */,
-				ECC9A1BD20078E5200257DC4 /* BGSupermarketSalesViewController.h */,
-				ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */,
-			);
-			path = "策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,22 +362,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC9A1BF20078E5200257DC4 /* BGSupermarketSalesViewController.m in Sources */,
+				EC600552200E5696000F0354 /* BGSupermarketSalesViewController.m in Sources */,
 				ECC9A1A020063E2F00257DC4 /* BGRootViewController.m in Sources */,
 				ECC9A1642005B47500257DC4 /* ViewController.m in Sources */,
 				ECC9A1A320063E6900257DC4 /* BGRootViewController+AlertMessage.m in Sources */,
 				ECC9A1992005F8D400257DC4 /* BGOparationAdd.m in Sources */,
 				ECC9A1A62007042300257DC4 /* BGOperationSub.m in Sources */,
 				ECC9A1A92007053F00257DC4 /* BGOperationMul.m in Sources */,
-				ECC9A1B32007831E00257DC4 /* BGCashNormal.m in Sources */,
-				ECC9A1B9200784C000257DC4 /* BGCashReturn.m in Sources */,
 				ECC9A1AC200705AB00257DC4 /* BGOperationDiv.m in Sources */,
+				EC60054E200E5696000F0354 /* BGCashContext.m in Sources */,
+				EC600551200E5696000F0354 /* BGCashReturn.m in Sources */,
 				ECC9A1942005B56800257DC4 /* BGCalculatorViewController.m in Sources */,
 				ECC9A16F2005B47500257DC4 /* main.m in Sources */,
 				ECC9A1612005B47500257DC4 /* AppDelegate.m in Sources */,
 				ECC9A19C2006365100257DC4 /* BGOperationFactory.m in Sources */,
-				ECC9A1BC20078B0800257DC4 /* BGCashContext.m in Sources */,
-				ECC9A1B62007836A00257DC4 /* BGCashRebate.m in Sources */,
+				EC600550200E5696000F0354 /* BGCashRebate.m in Sources */,
+				EC60054F200E5696000F0354 /* BGCashNormal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
