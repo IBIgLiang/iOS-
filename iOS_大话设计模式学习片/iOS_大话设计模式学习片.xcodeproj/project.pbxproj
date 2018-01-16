@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC9A1612005B47500257DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1602005B47500257DC4 /* AppDelegate.m */; };
+		ECC9A1642005B47500257DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1632005B47500257DC4 /* ViewController.m */; };
+		ECC9A1672005B47500257DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A1652005B47500257DC4 /* Main.storyboard */; };
+		ECC9A1692005B47500257DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A1682005B47500257DC4 /* Assets.xcassets */; };
+		ECC9A16C2005B47500257DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A16A2005B47500257DC4 /* LaunchScreen.storyboard */; };
+		ECC9A16F2005B47500257DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A16E2005B47500257DC4 /* main.m */; };
+		ECC9A1792005B47500257DC4 /* iOS__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1782005B47500257DC4 /* iOS__________Tests.m */; };
+		ECC9A1842005B47500257DC4 /* iOS__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1832005B47500257DC4 /* iOS__________UITests.m */; };
+		ECC9A1942005B56800257DC4 /* BGCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1932005B56800257DC4 /* BGCalculatorViewController.m */; };
+		ECC9A1992005F8D400257DC4 /* BGOparationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1982005F8D400257DC4 /* BGOparationAdd.m */; };
+		ECC9A19C2006365100257DC4 /* BGOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A19B2006365100257DC4 /* BGOperationFactory.m */; };
+		ECC9A1A020063E2F00257DC4 /* BGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A19F20063E2F00257DC4 /* BGRootViewController.m */; };
+		ECC9A1A320063E6900257DC4 /* BGRootViewController+AlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1A220063E6900257DC4 /* BGRootViewController+AlertMessage.m */; };
+		ECC9A1A62007042300257DC4 /* BGOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1A52007042300257DC4 /* BGOperationSub.m */; };
+		ECC9A1A92007053F00257DC4 /* BGOperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1A82007053F00257DC4 /* BGOperationMul.m */; };
+		ECC9A1AC200705AB00257DC4 /* BGOperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1AB200705AB00257DC4 /* BGOperationDiv.m */; };
+		ECC9A1AE20070FAB00257DC4 /* 简单工程模式.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC9A1AD20070FAA00257DC4 /* 简单工程模式.png */; };
+		ECC9A1B32007831E00257DC4 /* BGCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B22007831E00257DC4 /* BGCashNormal.m */; };
+		ECC9A1B62007836A00257DC4 /* BGCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B52007836A00257DC4 /* BGCashRebate.m */; };
+		ECC9A1B9200784C000257DC4 /* BGCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1B8200784C000257DC4 /* BGCashReturn.m */; };
+		ECC9A1BC20078B0800257DC4 /* BGCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1BB20078B0800257DC4 /* BGCashContext.m */; };
+		ECC9A1BF20078E5200257DC4 /* BGSupermarketSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC9A1752005B47500257DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC9A1542005B47500257DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC9A15B2005B47500257DC4;
+			remoteInfo = "iOS_大话设计模式学习片";
+		};
+		ECC9A1802005B47500257DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC9A1542005B47500257DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC9A15B2005B47500257DC4;
+			remoteInfo = "iOS_大话设计模式学习片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC9A15C2005B47500257DC4 /* iOS_大话设计模式学习片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_大话设计模式学习片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC9A15F2005B47500257DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC9A1602005B47500257DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC9A1622005B47500257DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC9A1632005B47500257DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECC9A1662005B47500257DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC9A1682005B47500257DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC9A16B2005B47500257DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC9A16D2005B47500257DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC9A16E2005B47500257DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC9A1742005B47500257DC4 /* iOS_大话设计模式学习片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS_大话设计模式学习片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC9A1782005B47500257DC4 /* iOS__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS__________Tests.m"; sourceTree = "<group>"; };
+		ECC9A17A2005B47500257DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC9A17F2005B47500257DC4 /* iOS_大话设计模式学习片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS_大话设计模式学习片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC9A1832005B47500257DC4 /* iOS__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS__________UITests.m"; sourceTree = "<group>"; };
+		ECC9A1852005B47500257DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC9A1922005B56800257DC4 /* BGCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCalculatorViewController.h; sourceTree = "<group>"; };
+		ECC9A1932005B56800257DC4 /* BGCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCalculatorViewController.m; sourceTree = "<group>"; };
+		ECC9A1962005F2FB00257DC4 /* BGOparation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOparation.h; sourceTree = "<group>"; };
+		ECC9A1972005F8D400257DC4 /* BGOparationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOparationAdd.h; sourceTree = "<group>"; };
+		ECC9A1982005F8D400257DC4 /* BGOparationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOparationAdd.m; sourceTree = "<group>"; };
+		ECC9A19A2006365100257DC4 /* BGOperationFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOperationFactory.h; sourceTree = "<group>"; };
+		ECC9A19B2006365100257DC4 /* BGOperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOperationFactory.m; sourceTree = "<group>"; };
+		ECC9A19E20063E2F00257DC4 /* BGRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGRootViewController.h; sourceTree = "<group>"; };
+		ECC9A19F20063E2F00257DC4 /* BGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGRootViewController.m; sourceTree = "<group>"; };
+		ECC9A1A120063E6900257DC4 /* BGRootViewController+AlertMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGRootViewController+AlertMessage.h"; sourceTree = "<group>"; };
+		ECC9A1A220063E6900257DC4 /* BGRootViewController+AlertMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BGRootViewController+AlertMessage.m"; sourceTree = "<group>"; };
+		ECC9A1A42007042300257DC4 /* BGOperationSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOperationSub.h; sourceTree = "<group>"; };
+		ECC9A1A52007042300257DC4 /* BGOperationSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOperationSub.m; sourceTree = "<group>"; };
+		ECC9A1A72007053F00257DC4 /* BGOperationMul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOperationMul.h; sourceTree = "<group>"; };
+		ECC9A1A82007053F00257DC4 /* BGOperationMul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOperationMul.m; sourceTree = "<group>"; };
+		ECC9A1AA200705AB00257DC4 /* BGOperationDiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGOperationDiv.h; sourceTree = "<group>"; };
+		ECC9A1AB200705AB00257DC4 /* BGOperationDiv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGOperationDiv.m; sourceTree = "<group>"; };
+		ECC9A1AD20070FAA00257DC4 /* 简单工程模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工程模式.png"; sourceTree = "<group>"; };
+		ECC9A1B0200782D100257DC4 /* BGCashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashSuper.h; sourceTree = "<group>"; };
+		ECC9A1B12007831E00257DC4 /* BGCashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashNormal.h; sourceTree = "<group>"; };
+		ECC9A1B22007831E00257DC4 /* BGCashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashNormal.m; sourceTree = "<group>"; };
+		ECC9A1B42007836A00257DC4 /* BGCashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashRebate.h; sourceTree = "<group>"; };
+		ECC9A1B52007836A00257DC4 /* BGCashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashRebate.m; sourceTree = "<group>"; };
+		ECC9A1B7200784C000257DC4 /* BGCashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashReturn.h; sourceTree = "<group>"; };
+		ECC9A1B8200784C000257DC4 /* BGCashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashReturn.m; sourceTree = "<group>"; };
+		ECC9A1BA20078B0800257DC4 /* BGCashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCashContext.h; sourceTree = "<group>"; };
+		ECC9A1BB20078B0800257DC4 /* BGCashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCashContext.m; sourceTree = "<group>"; };
+		ECC9A1BD20078E5200257DC4 /* BGSupermarketSalesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSupermarketSalesViewController.h; sourceTree = "<group>"; };
+		ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSupermarketSalesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC9A1592005B47500257DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A1712005B47500257DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A17C2005B47500257DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC9A1532005B47500257DC4 = {
+			isa = PBXGroup;
+			children = (
+				ECC9A15E2005B47500257DC4 /* iOS_大话设计模式学习片 */,
+				ECC9A1772005B47500257DC4 /* iOS_大话设计模式学习片Tests */,
+				ECC9A1822005B47500257DC4 /* iOS_大话设计模式学习片UITests */,
+				ECC9A15D2005B47500257DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC9A15D2005B47500257DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A15C2005B47500257DC4 /* iOS_大话设计模式学习片.app */,
+				ECC9A1742005B47500257DC4 /* iOS_大话设计模式学习片Tests.xctest */,
+				ECC9A17F2005B47500257DC4 /* iOS_大话设计模式学习片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC9A15E2005B47500257DC4 /* iOS_大话设计模式学习片 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A1AF200711C400257DC4 /* 策略模式 */,
+				ECC9A19D20063E1300257DC4 /* 基础控件 */,
+				ECC9A1912005B4AD00257DC4 /* 简单工厂模式 */,
+				ECC9A15F2005B47500257DC4 /* AppDelegate.h */,
+				ECC9A1602005B47500257DC4 /* AppDelegate.m */,
+				ECC9A1622005B47500257DC4 /* ViewController.h */,
+				ECC9A1632005B47500257DC4 /* ViewController.m */,
+				ECC9A1652005B47500257DC4 /* Main.storyboard */,
+				ECC9A1682005B47500257DC4 /* Assets.xcassets */,
+				ECC9A16A2005B47500257DC4 /* LaunchScreen.storyboard */,
+				ECC9A16D2005B47500257DC4 /* Info.plist */,
+				ECC9A16E2005B47500257DC4 /* main.m */,
+			);
+			path = "iOS_大话设计模式学习片";
+			sourceTree = "<group>";
+		};
+		ECC9A1772005B47500257DC4 /* iOS_大话设计模式学习片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A1782005B47500257DC4 /* iOS__________Tests.m */,
+				ECC9A17A2005B47500257DC4 /* Info.plist */,
+			);
+			path = "iOS_大话设计模式学习片Tests";
+			sourceTree = "<group>";
+		};
+		ECC9A1822005B47500257DC4 /* iOS_大话设计模式学习片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A1832005B47500257DC4 /* iOS__________UITests.m */,
+				ECC9A1852005B47500257DC4 /* Info.plist */,
+			);
+			path = "iOS_大话设计模式学习片UITests";
+			sourceTree = "<group>";
+		};
+		ECC9A1912005B4AD00257DC4 /* 简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A1AD20070FAA00257DC4 /* 简单工程模式.png */,
+				ECC9A1922005B56800257DC4 /* BGCalculatorViewController.h */,
+				ECC9A1932005B56800257DC4 /* BGCalculatorViewController.m */,
+				ECC9A1962005F2FB00257DC4 /* BGOparation.h */,
+				ECC9A1972005F8D400257DC4 /* BGOparationAdd.h */,
+				ECC9A1982005F8D400257DC4 /* BGOparationAdd.m */,
+				ECC9A19A2006365100257DC4 /* BGOperationFactory.h */,
+				ECC9A19B2006365100257DC4 /* BGOperationFactory.m */,
+				ECC9A1A42007042300257DC4 /* BGOperationSub.h */,
+				ECC9A1A52007042300257DC4 /* BGOperationSub.m */,
+				ECC9A1A72007053F00257DC4 /* BGOperationMul.h */,
+				ECC9A1A82007053F00257DC4 /* BGOperationMul.m */,
+				ECC9A1AA200705AB00257DC4 /* BGOperationDiv.h */,
+				ECC9A1AB200705AB00257DC4 /* BGOperationDiv.m */,
+			);
+			path = "简单工厂模式";
+			sourceTree = "<group>";
+		};
+		ECC9A19D20063E1300257DC4 /* 基础控件 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A19E20063E2F00257DC4 /* BGRootViewController.h */,
+				ECC9A19F20063E2F00257DC4 /* BGRootViewController.m */,
+				ECC9A1A120063E6900257DC4 /* BGRootViewController+AlertMessage.h */,
+				ECC9A1A220063E6900257DC4 /* BGRootViewController+AlertMessage.m */,
+			);
+			path = "基础控件";
+			sourceTree = "<group>";
+		};
+		ECC9A1AF200711C400257DC4 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				ECC9A1B0200782D100257DC4 /* BGCashSuper.h */,
+				ECC9A1B12007831E00257DC4 /* BGCashNormal.h */,
+				ECC9A1B22007831E00257DC4 /* BGCashNormal.m */,
+				ECC9A1B42007836A00257DC4 /* BGCashRebate.h */,
+				ECC9A1B52007836A00257DC4 /* BGCashRebate.m */,
+				ECC9A1B7200784C000257DC4 /* BGCashReturn.h */,
+				ECC9A1B8200784C000257DC4 /* BGCashReturn.m */,
+				ECC9A1BA20078B0800257DC4 /* BGCashContext.h */,
+				ECC9A1BB20078B0800257DC4 /* BGCashContext.m */,
+				ECC9A1BD20078E5200257DC4 /* BGSupermarketSalesViewController.h */,
+				ECC9A1BE20078E5200257DC4 /* BGSupermarketSalesViewController.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC9A15B2005B47500257DC4 /* iOS_大话设计模式学习片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC9A1882005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片" */;
+			buildPhases = (
+				ECC9A1582005B47500257DC4 /* Sources */,
+				ECC9A1592005B47500257DC4 /* Frameworks */,
+				ECC9A15A2005B47500257DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS_大话设计模式学习片";
+			productName = "iOS_大话设计模式学习片";
+			productReference = ECC9A15C2005B47500257DC4 /* iOS_大话设计模式学习片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC9A1732005B47500257DC4 /* iOS_大话设计模式学习片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC9A18B2005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片Tests" */;
+			buildPhases = (
+				ECC9A1702005B47500257DC4 /* Sources */,
+				ECC9A1712005B47500257DC4 /* Frameworks */,
+				ECC9A1722005B47500257DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC9A1762005B47500257DC4 /* PBXTargetDependency */,
+			);
+			name = "iOS_大话设计模式学习片Tests";
+			productName = "iOS_大话设计模式学习片Tests";
+			productReference = ECC9A1742005B47500257DC4 /* iOS_大话设计模式学习片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC9A17E2005B47500257DC4 /* iOS_大话设计模式学习片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC9A18E2005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片UITests" */;
+			buildPhases = (
+				ECC9A17B2005B47500257DC4 /* Sources */,
+				ECC9A17C2005B47500257DC4 /* Frameworks */,
+				ECC9A17D2005B47500257DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC9A1812005B47500257DC4 /* PBXTargetDependency */,
+			);
+			name = "iOS_大话设计模式学习片UITests";
+			productName = "iOS_大话设计模式学习片UITests";
+			productReference = ECC9A17F2005B47500257DC4 /* iOS_大话设计模式学习片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC9A1542005B47500257DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhangzhiliang;
+				TargetAttributes = {
+					ECC9A15B2005B47500257DC4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ECC9A1732005B47500257DC4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC9A15B2005B47500257DC4;
+					};
+					ECC9A17E2005B47500257DC4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC9A15B2005B47500257DC4;
+					};
+				};
+			};
+			buildConfigurationList = ECC9A1572005B47500257DC4 /* Build configuration list for PBXProject "iOS_大话设计模式学习片" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC9A1532005B47500257DC4;
+			productRefGroup = ECC9A15D2005B47500257DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC9A15B2005B47500257DC4 /* iOS_大话设计模式学习片 */,
+				ECC9A1732005B47500257DC4 /* iOS_大话设计模式学习片Tests */,
+				ECC9A17E2005B47500257DC4 /* iOS_大话设计模式学习片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC9A15A2005B47500257DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC9A16C2005B47500257DC4 /* LaunchScreen.storyboard in Resources */,
+				ECC9A1692005B47500257DC4 /* Assets.xcassets in Resources */,
+				ECC9A1AE20070FAB00257DC4 /* 简单工程模式.png in Resources */,
+				ECC9A1672005B47500257DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A1722005B47500257DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A17D2005B47500257DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC9A1582005B47500257DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC9A1BF20078E5200257DC4 /* BGSupermarketSalesViewController.m in Sources */,
+				ECC9A1A020063E2F00257DC4 /* BGRootViewController.m in Sources */,
+				ECC9A1642005B47500257DC4 /* ViewController.m in Sources */,
+				ECC9A1A320063E6900257DC4 /* BGRootViewController+AlertMessage.m in Sources */,
+				ECC9A1992005F8D400257DC4 /* BGOparationAdd.m in Sources */,
+				ECC9A1A62007042300257DC4 /* BGOperationSub.m in Sources */,
+				ECC9A1A92007053F00257DC4 /* BGOperationMul.m in Sources */,
+				ECC9A1B32007831E00257DC4 /* BGCashNormal.m in Sources */,
+				ECC9A1B9200784C000257DC4 /* BGCashReturn.m in Sources */,
+				ECC9A1AC200705AB00257DC4 /* BGOperationDiv.m in Sources */,
+				ECC9A1942005B56800257DC4 /* BGCalculatorViewController.m in Sources */,
+				ECC9A16F2005B47500257DC4 /* main.m in Sources */,
+				ECC9A1612005B47500257DC4 /* AppDelegate.m in Sources */,
+				ECC9A19C2006365100257DC4 /* BGOperationFactory.m in Sources */,
+				ECC9A1BC20078B0800257DC4 /* BGCashContext.m in Sources */,
+				ECC9A1B62007836A00257DC4 /* BGCashRebate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A1702005B47500257DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC9A1792005B47500257DC4 /* iOS__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A17B2005B47500257DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC9A1842005B47500257DC4 /* iOS__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC9A1762005B47500257DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC9A15B2005B47500257DC4 /* iOS_大话设计模式学习片 */;
+			targetProxy = ECC9A1752005B47500257DC4 /* PBXContainerItemProxy */;
+		};
+		ECC9A1812005B47500257DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC9A15B2005B47500257DC4 /* iOS_大话设计模式学习片 */;
+			targetProxy = ECC9A1802005B47500257DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC9A1652005B47500257DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC9A1662005B47500257DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC9A16A2005B47500257DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC9A16B2005B47500257DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC9A1862005B47500257DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC9A1872005B47500257DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC9A1892005B47500257DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC9A18A2005B47500257DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC9A18C2005B47500257DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_大话设计模式学习片.app/iOS_大话设计模式学习片";
+			};
+			name = Debug;
+		};
+		ECC9A18D2005B47500257DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_大话设计模式学习片.app/iOS_大话设计模式学习片";
+			};
+			name = Release;
+		};
+		ECC9A18F2005B47500257DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS_大话设计模式学习片";
+			};
+			name = Debug;
+		};
+		ECC9A1902005B47500257DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS_大话设计模式学习片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS_大话设计模式学习片";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC9A1572005B47500257DC4 /* Build configuration list for PBXProject "iOS_大话设计模式学习片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9A1862005B47500257DC4 /* Debug */,
+				ECC9A1872005B47500257DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC9A1882005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9A1892005B47500257DC4 /* Debug */,
+				ECC9A18A2005B47500257DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC9A18B2005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9A18C2005B47500257DC4 /* Debug */,
+				ECC9A18D2005B47500257DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC9A18E2005B47500257DC4 /* Build configuration list for PBXNativeTarget "iOS_大话设计模式学习片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC9A18F2005B47500257DC4 /* Debug */,
+				ECC9A1902005B47500257DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC9A1542005B47500257DC4 /* Project object */;
+}
